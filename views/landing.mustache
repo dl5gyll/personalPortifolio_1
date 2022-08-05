@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{global.site_name}}</title>
+    <meta name="description" content="" />
+
+    {{>head}}
+</head>
+
+<body>
+    <div class="blocks-page">
+        {{>header2}}
+
+    <section style="background:url('{{{page.hero.img_background}}}=s2048');background-size:cover;background-position:center;">
+        <div class="gradient-div py-3" style="height:76vh">
+
+            <div class="container">
+                <div class="row justify-content-center header-row">
+                    <div class="col-12 col-md-8 col-lg-7 text-center text-white">
+                    <img class="mt-4" style="width:160px; border-radius:50%" src="{{{page.hero.img_profile}}}=s320-c" alt="Profile Image"/>
+                        <h1 class="display-3 mt-4">{{page.hero.greeting}}</h1>
+                        <p class="lead text-white mb-4 mt-0">
+                            {{page.hero.introduction}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 py-md-7">
+        <div class="container py-md-5">
+            <div class="row block-header">
+                <div class="col-sm-8 mx-auto text-center">
+                    <h1 class="display-4 mt-2">{{page.projects.header}}</h1>
+                    <hr>
+                    <p class="lead">{{page.projects.subheader}}</p>
+                </div>
+            </div>
+            <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                {{#projects}}
+                    <div class="col-md-4 col-sm-12 mb-2r">
+                        <a href="/project/{{slug}}">
+                            <div class="position-relative project">
+                                <div class="image position-relative ">
+                                    <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block">
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner overlay-content">
+                                            <h5 class="mb-0">{{name}}</h5>
+                                            <p>{{category}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>               
+                {{/projects}}
+            </div>
+        </div>>
+    </section>
+
+    <section class="py-md-5 block">
+        <div class="container">
+            <div class="row block-header">
+                <div class="col-sm-8 mx-auto text-center">
+                    <h1 class="display-4 mt-2">{{page.services.header}}</h1>
+                    <hr>
+                    <p class="lead">{{page.services.subheader}}</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                {{#page.services.list}}
+                <div class="col-md-4 service mb-5 aos-init aos-animate">
+                    <img class="icon mr-4" src="{{{img_feature}}}">
+                    <div class="content">
+                        <h5>{{name}}</h5>
+                        <p>{{description}}</p>
+                    </div>
+                </div>
+                {{/page.services.list}}
+            </div>
+        </div>
+    </section>
+
+<!--Testimonials Start-->
+    <section class="py-md-5 block testimonial-block">
+        <div class="container py-5">
+            <div class="row block-header">
+                <div class="col-sm-8 mx-auto text-center">
+                    <h1 class="display-4 section-title">{{page.testimonials.header}}</h1>
+                    <hr>
+                    <p class="lead">{{page.testimonials.subheader}}</p>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                {{#page.testimonials.list}}
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p><img class="avatar" src="{{{img_profile}}}=s620-c" alt="..."></p>
+                        <p>{{review_text}}</p>
+                        <p class="name">{{name}}</p>
+                    </blockquote>
+                </div>
+                {{/page.testimonials.list}}
+            </div>
+        </div>
+    </section>
+
+    <section class="py-md-5 block text-center contact-block mb-5">
+        <div class="container">
+            <div class="row block-header">
+                <div class="col-sm-8 mx-auto text-center">
+                    <h1 class="display-4 mt-2 section-title">{{page.contact.header}}</h1>
+                    <hr>
+                    <p class="lead">{{page.contact.subheader}}</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <form class="col-md-4 col-xl-4 mx-auto input-border">
+                    <div class="form-group">
+                        <input id="contact-form-name" type="text" class="form-control form-control-lg" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input id="contact-form-email" type="text" class="form-control form-control-lg" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input id="contact-form-message" type="text" class="form-control form-control-lg" placeholder="Message">
+                    </div>
+                    <button id="btn-contact-submit"class="btn btn-block btn-lg btn-info">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+        {{>footer}}
+    </div>
+
+    {{>scripts}}
+    
+</body>
+</html>

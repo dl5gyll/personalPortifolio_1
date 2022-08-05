@@ -1,0 +1,79 @@
+{
+    "hero": {
+        "greeting": "Welcome!",
+        "introduction": "My name is Gerson, I am full stack software developer. I will be happy to work on your project.",
+        "img_profile":"https://lh3.googleusercontent.com/Fcjd1TPrFDYNxKy-Nakcsz8MCvF3DiN6fyaTjudJmec2netxLM0vbEiGRqsBDmqTdv80ARv9FWjzd7zFjl4aU1Jpz1WL2ySDZXYyO6Ju",
+        "img_background": "https://lh3.googleusercontent.com/iPifLJuaHHA7iWK6PvIVvWEvsm116ifbvBsiisqpcMdt3miQqr8fpXrWZfYoWwdtaB8VUYbU8WvPumsQkKzSdQpqSfL9hPkEx5gVUbs"
+    },
+    "projects":{
+        "header":"My Projects",
+        "subheader":"Take a look at my most recent projects"
+    },
+    "testimonials": {
+        "header":"Testimonials",
+        "subheader":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.",
+        "list": [
+            {
+                "name":"Sulvia Nikola",
+                "review_text":"When you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.",
+                "img_profile": "https://lh3.googleusercontent.com/0Idh0SlcLSdG_Js0DLlKFFEOMQIrDSM6ZlvdtRczROSpESVNHo2dtDtr3iSm_4sKXprww06igHWc8J1h02GjzagfQpCO09QtEoIdrg"
+            },
+            {
+                "name":"Peter Haghen",
+                "review_text":"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is important.",
+                "img_profile": "https://lh3.googleusercontent.com/kaSRZzeGZaKDNXTNnupBBiRFGO0RxdyH_TgAJ_pZwKncaxQESR4kMoSUqvk-jPDppoc8D-ZExDewl6DaAWabZUG0lqqC44eZwPQDDZU"
+            },
+            {
+                "name":"Emma Tania",
+                "review_text":"When you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.",
+                "img_profile": "https://lh3.googleusercontent.com/WeNqVaKzAsvIdAY27MlScsZESpTquc7uCO2Y8dkaF9Ccc-nt51WPTlAQHkuvmEabEfg3xGxzkEa_kQGVhaVY0w5J-9wXqHb0SOp7ZVk"
+            },
+            {
+                "name":"Stepan Zdenek",
+                "review_text":"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is important.",
+                "img_profile": "https://lh3.googleusercontent.com/yMpa5NgjBNBDmqLGWCc8Rrs_V7DREYN7-M5sXMfSgMzUtVGPCaRHiFQuETg5FGQtOnCYcqz9BZrWGsIVHxrgGA7mIyQnOgkdK01Xqx0"
+            }
+        ]
+    },
+    "services": {
+        "header":"Services",
+        "subheader":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.",
+        "list":[
+            {
+                "name": "Web Development",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/gZw2gibFTxpbeh3Ib9NDIZomVup18pX27yBJb7PVvLT-ickH9EsbFjcs0VhQQYJ_LT9mUUnJjRarz_CaZDxoRsP7" 
+            },
+            {
+                "name": "Video Marketing",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/t4qKJLlVGyrQDwvUH6R9fDE9_J3gYgwL7qEoogrCuFLGn2Kkv0XEsj4-_bPXiYJP0JMZ6cuvHueX2M79vEJTjFFfASY" 
+            },
+            {
+                "name": "App Design",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/uOsmQSUxTHHpkXB2B-MJk5FJK16xSEmmr_8qcbjXpkfg7udbyjYugMTe9Thq7fa3iMQe94TmcxKGKt20Jxk3m3b0ow" 
+            },
+            {
+                "name": "Graphics Design",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/wV5ezHwg-P-WEeG1pesrNpNBSDATqnTxr4ZTah_wld3ZXW-DbVmAXeAfq5qlyH6OvuKZttRF0nn2K0aaV8SvcI967Q" 
+            },
+            {
+                "name": "Digital Marketing",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/G23HGLZX7yNkzKWDe8oXRjIGgfznxgg-jKNTmtD2L4MMRPrSuI-77FcNJTK3xEyT2AbOfumIysFx-U3A78TxwbJQyw" 
+            },
+            {
+                "name": "Branding Design",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.",
+                "img_feature": "https://lh3.googleusercontent.com/MJwNNAhQaXFPTjlofNHh8wcL7Aftu4h0yDP5FTrGC5WZsb9iL9vEIn14Tlgh4K_1y3JIuGh13A1zVw7vdnJW23pLtZ0" 
+            }
+        ]
+    },
+    "contact":{
+        "header":"Let us collaborate!",
+        "subheader":"If you are interested in working with me, please feel out the contact form. I will get back to you."
+        }
+        
+}
